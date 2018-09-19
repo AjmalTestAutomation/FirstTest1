@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TES-T3_Open Account Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.822">
+  <properties />
+  
+  
+            <testcase name="openAccountTest" time="2.822" classname="com.SST.testcases.TES_T3_OpenAccountTest" />
+      
+</testsuite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Data Driven Basics]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.SST.listeners.CustomListeners"/>
+  </listeners>
+  <test name="TES-T1_Bank Manager Login Test(failed)">
+    <parameter name="Testkey" value="TES-T1"/>
+    <classes>
+      <class name="com.SST.testcases.TES_T1_BankManagerLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="bankManagerLoginTest"/>
+        </methods>
+      </class> <!-- com.SST.testcases.TES_T1_BankManagerLoginTest -->
+    </classes>
+  </test> <!-- TES-T1_Bank Manager Login Test(failed) -->
+  <test name="TES-T2_Add Customer Test(failed)">
+    <parameter name="Testkey" value="TES-T2"/>
+    <classes>
+      <class name="com.SST.testcases.TES_T2_AddCustomerTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="addCustomerTest" invocation-numbers="1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.SST.testcases.TES_T2_AddCustomerTest -->
+    </classes>
+  </test> <!-- TES-T2_Add Customer Test(failed) -->
+</suite> <!-- Failed suite [Data Driven Basics] -->

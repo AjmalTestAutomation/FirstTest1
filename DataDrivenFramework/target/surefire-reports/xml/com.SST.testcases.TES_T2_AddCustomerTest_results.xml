@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TES-T2_Add Customer Test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="14.735">
+  <properties />
+  
+            <testcase name="addCustomerTest" time="0.0" classname="com.SST.testcases.TES_T2_AddCustomerTest">
+          <skipped />
+    </testcase>
+  
+            <testcase name="addCustomerTest" time="5.838" classname="com.SST.testcases.TES_T2_AddCustomerTest" />
+                <testcase name="addCustomerTest" time="4.416" classname="com.SST.testcases.TES_T2_AddCustomerTest" />
+                <testcase name="addCustomerTest" time="4.479" classname="com.SST.testcases.TES_T2_AddCustomerTest" />
+      
+</testsuite>

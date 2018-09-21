@@ -108,7 +108,12 @@
 		</dependency>
 
 
-
+	   <!-- https://mvnrepository.com/artifact/org.json/json -->
+	<dependency>
+	    <groupId>org.json</groupId>
+	    <artifactId>json</artifactId>
+	    <version>20180130</version>
+	</dependency>
 
 
 	</dependencies>
@@ -132,15 +137,28 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.20</version>
 				<configuration>
-					<testFailureIgnore> false </testFailureIgnore>
+					<testFailureIgnore> true </testFailureIgnore>
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 	</plugin>
-
-
-		</plugins>
+	 <plugin>  
+   <groupId>org.codehaus.mojo</groupId>
+    <artifactId>exec-maven-plugin</artifactId>
+    <version>1.2.1</version> 
+   <executions>  
+    <execution>   
+     <goals>  
+		<goal>java</goal>  
+     </goals>   
+    </execution>  
+   </executions>  
+    <configuration>  
+      <mainClass>com.sst.test.test.Test</mainClass>  
+     </configuration> 
+  	</plugin>  
+  </plugins>
 		
 		
 		<testResources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data Driven Basics">
+    
+    <listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+       <listener class-name="com.SST.listeners.CustomListeners"/>
+  </listeners>
+    
+    
+	<test name="TES-T1_Bank Manager Login Test">
+	<parameter name="Testkey" value="TES-T1"/>
+		<classes>
+			<class name="com.SST.testcases.TES_T1_BankManagerLoginTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="TES-T2_Add Customer Test">
+	<parameter name="Testkey" value="TES-T2"/>
+		<classes>
+			<class name="com.SST.testcases.TES_T2_AddCustomerTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+		<test name="TES-T3_Open Account Test">
+		<parameter name="Testkey" value="TES-T3"/>
+		<classes>
+			<class name="com.SST.testcases.TES_T3_OpenAccountTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	
+</suite> <!-- Suite -->

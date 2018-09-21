@@ -5,7 +5,7 @@
       <![CDATA[<br>Verification failure : expected [abc] but found [xyz]<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Mon_Sep_17_18_45_13_IST_2018.jpg><img src=Mon_Sep_17_18_45_13_IST_2018.jpg height=200 width=200></img></a>]]>
+      <![CDATA[<a target="_blank" href=Fri_Sep_21_12_38_24_IST_2018.jpg><img src=Fri_Sep_21_12_38_24_IST_2018.jpg height=200 width=200></img></a>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
@@ -17,7 +17,7 @@
       <![CDATA[Click to see Screenshot]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Mon_Sep_17_18_45_17_IST_2018.jpg>Screenshot</a>]]>
+      <![CDATA[<a target="_blank" href=Fri_Sep_21_12_38_29_IST_2018.jpg>Screenshot</a>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
@@ -26,15 +26,15 @@
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Mon_Sep_17_18_45_17_IST_2018.jpg><img src=Mon_Sep_17_18_45_17_IST_2018.jpg height=200 width=200></img></a>]]>
+      <![CDATA[<a target="_blank" href=Fri_Sep_21_12_38_29_IST_2018.jpg><img src=Fri_Sep_21_12_38_29_IST_2018.jpg height=200 width=200></img></a>]]>
     </line>
   </reporter-output>
-  <suite name="Data Driven Basics" duration-ms="26659" started-at="2018-09-17T13:15:09Z" finished-at="2018-09-17T13:15:36Z">
+  <suite name="Data Driven Basics" duration-ms="36761" started-at="2018-09-21T07:08:12Z" finished-at="2018-09-21T07:08:49Z">
     <groups>
     </groups>
-    <test name="TES-T1_Bank Manager Login Test" duration-ms="8602" started-at="2018-09-17T13:15:09Z" finished-at="2018-09-17T13:15:18Z">
+    <test name="TES-T1_Bank Manager Login Test" duration-ms="18582" started-at="2018-09-21T07:08:12Z" finished-at="2018-09-21T07:08:31Z">
       <class name="com.SST.testcases.TES_T1_BankManagerLoginTest">
-        <test-method status="FAIL" signature="bankManagerLoginTest()[pri:0, instance:com.SST.testcases.TES_T1_BankManagerLoginTest@6f46426d]" name="bankManagerLoginTest" duration-ms="7887" started-at="2018-09-17T18:45:09Z" finished-at="2018-09-17T18:45:17Z">
+        <test-method status="FAIL" signature="bankManagerLoginTest()[pri:0, instance:com.SST.testcases.TES_T1_BankManagerLoginTest@7e7be63f]" name="bankManagerLoginTest" duration-ms="16244" started-at="2018-09-21T12:38:12Z" finished-at="2018-09-21T12:38:29Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Login not successful]]>
@@ -65,12 +65,12 @@
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
 	at org.testng.TestNG.runSuites(TestNG.java:1144)
 	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
@@ -79,7 +79,7 @@
               <![CDATA[<br>Verification failure : expected [abc] but found [xyz]<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Mon_Sep_17_18_45_13_IST_2018.jpg><img src=Mon_Sep_17_18_45_13_IST_2018.jpg height=200 width=200></img></a>]]>
+              <![CDATA[<a target="_blank" href=Fri_Sep_21_12_38_24_IST_2018.jpg><img src=Fri_Sep_21_12_38_24_IST_2018.jpg height=200 width=200></img></a>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
@@ -91,7 +91,7 @@
               <![CDATA[Click to see Screenshot]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Mon_Sep_17_18_45_17_IST_2018.jpg>Screenshot</a>]]>
+              <![CDATA[<a target="_blank" href=Fri_Sep_21_12_38_29_IST_2018.jpg>Screenshot</a>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
@@ -100,15 +100,15 @@
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Mon_Sep_17_18_45_17_IST_2018.jpg><img src=Mon_Sep_17_18_45_17_IST_2018.jpg height=200 width=200></img></a>]]>
+              <![CDATA[<a target="_blank" href=Fri_Sep_21_12_38_29_IST_2018.jpg><img src=Fri_Sep_21_12_38_29_IST_2018.jpg height=200 width=200></img></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- bankManagerLoginTest -->
       </class> <!-- com.SST.testcases.TES_T1_BankManagerLoginTest -->
     </test> <!-- TES-T1_Bank Manager Login Test -->
-    <test name="TES-T2_Add Customer Test" duration-ms="15112" started-at="2018-09-17T13:15:18Z" finished-at="2018-09-17T13:15:33Z">
+    <test name="TES-T2_Add Customer Test" duration-ms="14940" started-at="2018-09-21T07:08:31Z" finished-at="2018-09-21T07:08:46Z">
       <class name="com.SST.testcases.TES_T2_AddCustomerTest">
-        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.SST.testcases.TES_T2_AddCustomerTest@53fdffa1]" name="addCustomerTest" duration-ms="5838" started-at="2018-09-17T18:45:18Z" data-provider="dp" finished-at="2018-09-17T18:45:24Z">
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.SST.testcases.TES_T2_AddCustomerTest@1de76cc7]" name="addCustomerTest" duration-ms="5382" started-at="2018-09-21T12:38:31Z" data-provider="dp" finished-at="2018-09-21T12:38:37Z">
           <params>
             <param index="0">
               <value>
@@ -119,7 +119,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomerTest -->
-        <test-method status="SKIP" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.SST.testcases.TES_T2_AddCustomerTest@53fdffa1]" name="addCustomerTest" duration-ms="2" started-at="2018-09-17T18:45:24Z" data-provider="dp" finished-at="2018-09-17T18:45:24Z">
+        <test-method status="SKIP" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.SST.testcases.TES_T2_AddCustomerTest@1de76cc7]" name="addCustomerTest" duration-ms="0" started-at="2018-09-21T12:38:37Z" data-provider="dp" finished-at="2018-09-21T12:38:37Z">
           <params>
             <param index="0">
               <value>
@@ -156,19 +156,19 @@
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
 	at org.testng.TestNG.runSuites(TestNG.java:1144)
 	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomerTest -->
-        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.SST.testcases.TES_T2_AddCustomerTest@53fdffa1]" name="addCustomerTest" duration-ms="4479" started-at="2018-09-17T18:45:24Z" data-provider="dp" finished-at="2018-09-17T18:45:28Z">
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.SST.testcases.TES_T2_AddCustomerTest@1de76cc7]" name="addCustomerTest" duration-ms="4503" started-at="2018-09-21T12:38:37Z" data-provider="dp" finished-at="2018-09-21T12:38:41Z">
           <params>
             <param index="0">
               <value>
@@ -179,7 +179,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomerTest -->
-        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.SST.testcases.TES_T2_AddCustomerTest@53fdffa1]" name="addCustomerTest" duration-ms="4416" started-at="2018-09-17T18:45:28Z" data-provider="dp" finished-at="2018-09-17T18:45:33Z">
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.SST.testcases.TES_T2_AddCustomerTest@1de76cc7]" name="addCustomerTest" duration-ms="4539" started-at="2018-09-21T12:38:41Z" data-provider="dp" finished-at="2018-09-21T12:38:46Z">
           <params>
             <param index="0">
               <value>
@@ -192,13 +192,13 @@
         </test-method> <!-- addCustomerTest -->
       </class> <!-- com.SST.testcases.TES_T2_AddCustomerTest -->
     </test> <!-- TES-T2_Add Customer Test -->
-    <test name="TES-T3_Open Account Test" duration-ms="2876" started-at="2018-09-17T13:15:33Z" finished-at="2018-09-17T13:15:36Z">
+    <test name="TES-T3_Open Account Test" duration-ms="2896" started-at="2018-09-21T07:08:46Z" finished-at="2018-09-21T07:08:49Z">
       <class name="com.SST.testcases.TES_T3_OpenAccountTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SST.testcases.TES_T3_OpenAccountTest@47faa49c]" name="setUp" is-config="true" duration-ms="47260" started-at="2018-09-17T18:44:22Z" finished-at="2018-09-17T18:45:09Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SST.testcases.TES_T3_OpenAccountTest@37d4349f]" name="setUp" is-config="true" duration-ms="110100" started-at="2018-09-21T12:36:22Z" finished-at="2018-09-21T12:38:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.SST.testcases.TES_T3_OpenAccountTest@47faa49c]" name="openAccountTest" duration-ms="2822" started-at="2018-09-17T18:45:33Z" data-provider="dp" finished-at="2018-09-17T18:45:36Z">
+        <test-method status="PASS" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.SST.testcases.TES_T3_OpenAccountTest@37d4349f]" name="openAccountTest" duration-ms="2841" started-at="2018-09-21T12:38:46Z" data-provider="dp" finished-at="2018-09-21T12:38:49Z">
           <params>
             <param index="0">
               <value>
@@ -209,7 +209,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAccountTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SST.testcases.TES_T3_OpenAccountTest@47faa49c]" name="tearDown" is-config="true" duration-ms="2521" started-at="2018-09-17T18:45:36Z" finished-at="2018-09-17T18:45:38Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SST.testcases.TES_T3_OpenAccountTest@37d4349f]" name="tearDown" is-config="true" duration-ms="3492" started-at="2018-09-21T12:38:49Z" finished-at="2018-09-21T12:38:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
